@@ -21,5 +21,9 @@ public class DelimeterDemo {
         System.out.println("For keyboard2 the words read are:");
         System.out.println(word1);
         System.out.println(word2);
+        System.out.println(junk);
+        keyboard1.close();
+        keyboard2.close();
+
     }
 }
